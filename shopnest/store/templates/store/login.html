@@ -1,0 +1,61 @@
+{% extends 'store/main.html' %}
+{% block content %}
+
+<div class="container">
+
+    <div class="col-md-6 mx-auto">
+
+        <div class="box-element">
+
+            <h3>User Login</h3>
+
+            <hr>
+
+            <form method="POST">
+
+                {% csrf_token %}
+
+                <div class="form-group">
+                    <label>Username</label>
+
+                    <input type="text"
+                    name="username"
+                    class="form-control"
+                    required>
+                </div>
+
+                <div class="form-group">
+                    <label>Password</label>
+
+                    <input type="password"
+                    name="password"
+                    class="form-control"
+                    required>
+                </div>
+
+                <button type="submit"
+                class="btn btn-primary btn-block">
+
+                Login
+
+                </button>
+
+            </form>
+
+            <br>
+
+            <p>
+                Don't have an account?
+
+                <a href="{% url 'register' %}">
+                    Create Account
+                </a>
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock content %}
