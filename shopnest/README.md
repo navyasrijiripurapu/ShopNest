@@ -1,6 +1,6 @@
-# ShopSphere
+# ShopNest
 
-ShopSphere is a modern full-stack e-commerce web application developed using Django for the backend and HTML, CSS, JavaScript, and Bootstrap for the frontend.
+ShopNest is a modern full-stack e-commerce web application developed using Django for the backend and HTML, CSS, JavaScript, and Bootstrap for the frontend.
 
 The platform provides a clean and user-friendly shopping experience with cart management, order processing, and responsive design features.
 
